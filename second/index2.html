@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <!-- Hero Section -->
+     <section id="hero" class="relative pt-32 pb-20 min-h-[900px] flex flex-col items-center justify-center overflow-hidden">
+        <!-- Decorative Leaves -->
+        <div class="leaf-decoration top-20 left-0 w-64 h-64 text-sage-light rotate-45">
+            <svg viewBox="0 0 100 100" fill="currentColor"><path d="M50 0 C20 0 0 20 0 50 C0 80 20 100 50 100 C80 100 100 80 100 50 C100 20 80 0 50 0 Z M50 90 C30 90 10 70 10 50 C10 30 30 10 50 10 C70 10 90 30 90 50 C90 70 70 90 50 90 Z"></path></svg>
+        </div>
+        <div class="leaf-decoration bottom-40 right-10 w-80 h-80 text-terracotta rotate-12 opacity-10">
+             <svg viewBox="0 0 100 100" fill="currentColor"><path d="M50 0 C60 30 90 40 100 50 C90 60 60 70 50 100 C40 70 10 60 0 50 C10 40 40 30 50 0 Z"></path></svg>
+        </div>
+
+        <div class="max-w-6xl mx-auto w-full text-center relative z-10 px-6">
+            <div class="fade-in-up" style="animation-delay: 0.1s;">
+                <p class="text-xs tracking-[0.3em] uppercase mb-4 text-sage-text/60">By Anyany Studio</p>
+                <h1 class="font-serif text-5xl md:text-7xl lg:text-8xl text-sage-text mb-2 leading-tight">
+                    <span class="block">YOGA STUDIO</span>
+                    <span class="block italic font-light">ASHTANGA</span>
+                </h1>
+            </div>
+
+            <div class="relative mt-12 mb-16 fade-in-up" style="animation-delay: 0.3s;">
+                <div class="h-[500px] md:h-[600px] w-full max-w-lg mx-auto overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?q=80&amp;w=2000&amp;auto=format&amp;fit=crop" alt="Yoga Pose" class="w-full h-full object-cover object-center mix-blend-multiply opacity-90 hover:scale-105 transition-transform duration-1000 ease-out">
+                </div>
+                <!-- Floating geometric accent -->
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[110%] h-[90%] border border-sage-text/10 -z-10 rounded-full"></div>
+            </div>
+            
+            <div class="fade-in-up" style="animation-delay: 0.5s;">
+                <p class="font-serif italic text-lg text-sage-text/70">"Find balance in the chaos."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section  -->
+     <section id="services-ribbon" class="border-y border-sage-text/10 py-10 bg-white/30">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-wrap justify-center md:justify-between items-center gap-8 md:gap-4">
+                
+                <div class="flex items-center space-x-4 group cursor-pointer">
+                    <div class="w-10 h-10 rounded-full border border-sage-text/20 flex items-center justify-center group-hover:bg-sage-text group-hover:text-white transition-colors">
+                        <i class="text-sm" data-fa-i2svg=""><svg class="svg-inline--fa fa-om" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="om" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M379.3 4.7c-6.2-6.2-16.4-6.2-22.6 0l-16 16c-6.2 6.2-6.2 16.4 0 22.6l16 16c6.2 6.2 16.4 6.2 22.6 0l16-16c6.2-6.2 6.2-16.4 0-22.6l-16-16zM115.2 169.6c8-6 17.9-9.6 28.8-9.6c26.5 0 48 21.5 48 48s-21.5 48-48 48H109.8c-7.6 0-13.8 6.2-13.8 13.8c0 1.5 .2 2.9 .7 4.4l8 24c4.4 13.1 16.6 21.9 30.4 21.9H144h16c35.3 0 64 28.7 64 64s-28.7 64-64 64c-50.8 0-82.7-21.5-102.2-42.8c-9.9-10.8-16.6-21.6-20.9-29.7c-2.1-4-3.6-7.3-4.5-9.6c-.5-1.1-.8-2-1-2.5l-.2-.5 0-.1c-2.6-7.8-10.7-12.3-18.7-10.5C4.4 354.2-.9 361.8 .1 370L16 368C.1 370 .1 370 .1 370l0 0 0 0 0 .1 .1 .4c0 .3 .1 .8 .2 1.3c.2 1.1 .4 2.7 .8 4.6c.8 3.9 2 9.4 3.9 15.9c3.8 13 10.3 30.4 21.3 48C48.7 476.2 89.4 512 160 512c70.7 0 128-57.3 128-128c0-23.3-6.2-45.2-17.1-64h22.6c25.5 0 49.9-10.1 67.9-28.1l26.5-26.5c6-6 14.1-9.4 22.6-9.4H416c17.7 0 32 14.3 32 32v96c0 17.7-14.3 32-32 32c-25.7 0-41.4-12.5-51.2-25.6c-5-6.7-8.4-13.4-10.5-18.6c-1.1-2.5-1.8-4.6-2.2-6c-.2-.7-.4-1.2-.5-1.5l-.1-.3 0 0c0 0 0 0 0 0c-1.9-7.3-8.6-12.4-16.2-12.1c-7.6 .3-13.9 5.9-15.1 13.4L336 368c-15.8-2.6-15.8-2.6-15.8-2.6l0 0 0 0 0 .1-.1 .3c0 .3-.1 .6-.2 1.1c-.1 .9-.3 2.1-.4 3.6c-.3 3-.6 7.3-.6 12.4c0 10.1 1.1 23.9 5.8 38.1c4.8 14.3 13.4 29.3 28.6 40.7C368.7 473.3 389.3 480 416 480c53 0 96-43 96-96V288c0-53-43-96-96-96h-5.5c-25.5 0-49.9 10.1-67.9 28.1l-26.5 26.5c-6 6-14.1 9.4-22.6 9.4H245.2c6.9-14.5 10.8-30.8 10.8-48c0-61.9-50.1-112-112-112c-25.2 0-48.5 8.3-67.2 22.4c-14.1 10.6-17 30.7-6.4 44.8s30.7 17 44.8 6.4zM280.9 66.7c-6-4-14-3.5-19.5 1.3s-7 12.7-3.7 19.2L272 80c-14.3 7.2-14.3 7.2-14.3 7.2l0 0 0 0 0 .1 .1 .2 .4 .7c.3 .6 .8 1.4 1.4 2.4c1.2 2 2.9 4.8 5.1 8.2c4.4 6.7 11.1 15.5 20 24.4C302.4 141.1 330.3 160 368 160c31.2 0 56.6-10.4 73.9-20.2c8.7-5 15.6-9.9 20.4-13.8c2.4-1.9 4.3-3.6 5.7-4.9c.7-.6 1.3-1.2 1.7-1.6l.6-.5 .2-.2 .1-.1 0 0 0 0c0 0 0 0-22.6-22.6l22.6 22.6c12.5-12.5 12.5-32.8 0-45.3c-12.4-12.4-32.6-12.5-45.1-.2c-.1 .1-.2 .2-.5 .4c-.5 .5-1.5 1.3-2.8 2.4c-2.7 2.2-6.8 5.2-12.1 8.2C399.4 90.4 384.8 96 368 96c-20.8 0-42.4-7-59.5-14.6c-8.4-3.7-15.4-7.5-20.3-10.3c-2.4-1.4-4.3-2.5-5.6-3.3c-.6-.4-1.1-.7-1.4-.9l-.3-.2 0 0 0 0 0 0z"></path></svg></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xs tracking-widest uppercase font-medium">Spiritual Journey</h3>
+                        <p class="text-[10px] text-sage-text/60 mt-1">Mind &amp; Soul Connection</p>
+                    </div>
+                </div>
+
+                <div class="hidden md:block w-px h-10 bg-sage-text/10"></div>
+
+                <div class="flex items-center space-x-4 group cursor-pointer">
+                    <div class="w-10 h-10 rounded-full border border-sage-text/20 flex items-center justify-center group-hover:bg-sage-text group-hover:text-white transition-colors">
+                        <i class="text-sm" data-fa-i2svg=""><svg class="svg-inline--fa fa-spa" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="spa" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M183.1 235.3c33.7 20.7 62.9 48.1 85.8 80.5c7 9.9 13.4 20.3 19.1 31c5.7-10.8 12.1-21.1 19.1-31c22.9-32.4 52.1-59.8 85.8-80.5C437.6 207.8 490.1 192 546 192h9.9c11.1 0 20.1 9 20.1 20.1C576 360.1 456.1 480 308.1 480H288 267.9C119.9 480 0 360.1 0 212.1C0 201 9 192 20.1 192H30c55.9 0 108.4 15.8 153.1 43.3zM301.5 37.6c15.7 16.9 61.1 71.8 84.4 164.6c-38 21.6-71.4 50.8-97.9 85.6c-26.5-34.8-59.9-63.9-97.9-85.6c23.2-92.8 68.6-147.7 84.4-164.6C278 33.9 282.9 32 288 32s10 1.9 13.5 5.6z"></path></svg></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xs tracking-widest uppercase font-medium">Daily Practice</h3>
+                        <p class="text-[10px] text-sage-text/60 mt-1">Consistency is Key</p>
+                    </div>
+                </div>
+
+                <div class="hidden md:block w-px h-10 bg-sage-text/10"></div>
+
+                <div class="flex items-center space-x-4 group cursor-pointer">
+                    <div class="w-10 h-10 rounded-full border border-sage-text/20 flex items-center justify-center group-hover:bg-sage-text group-hover:text-white transition-colors">
+                        <i class="text-sm" data-fa-i2svg=""><svg class="svg-inline--fa fa-wind" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="wind" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M288 32c0 17.7 14.3 32 32 32h32c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H352c53 0 96-43 96-96s-43-96-96-96H320c-17.7 0-32 14.3-32 32zm64 352c0 17.7 14.3 32 32 32h32c53 0 96-43 96-96s-43-96-96-96H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H384c-17.7 0-32 14.3-32 32zM128 512h32c53 0 96-43 96-96s-43-96-96-96H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H160c17.7 0 32 14.3 32 32s-14.3 32-32 32H128c-17.7 0-32 14.3-32 32s14.3 32 32 32z"></path></svg></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xs tracking-widest uppercase font-medium">Yin Flow</h3>
+                        <p class="text-[10px] text-sage-text/60 mt-1">Restore &amp; Renew</p>
+                    </div>
+                </div>
+
+                <div class="hidden md:block w-px h-10 bg-sage-text/10"></div>
+
+                 <div class="flex items-center space-x-4 group cursor-pointer">
+                    <div class="w-10 h-10 rounded-full border border-sage-text/20 flex items-center justify-center group-hover:bg-sage-text group-hover:text-white transition-colors">
+                        <i class="text-sm" data-fa-i2svg=""><svg class="svg-inline--fa fa-sun" aria-hidden="true" focusable="false" data-prefix="far" data-icon="sun" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M375.7 19.7c-1.5-8-6.9-14.7-14.4-17.8s-16.1-2.2-22.8 2.4L256 61.1 173.5 4.2c-6.7-4.6-15.3-5.5-22.8-2.4s-12.9 9.8-14.4 17.8l-18.1 98.5L19.7 136.3c-8 1.5-14.7 6.9-17.8 14.4s-2.2 16.1 2.4 22.8L61.1 256 4.2 338.5c-4.6 6.7-5.5 15.3-2.4 22.8s9.8 13 17.8 14.4l98.5 18.1 18.1 98.5c1.5 8 6.9 14.7 14.4 17.8s16.1 2.2 22.8-2.4L256 450.9l82.5 56.9c6.7 4.6 15.3 5.5 22.8 2.4s12.9-9.8 14.4-17.8l18.1-98.5 98.5-18.1c8-1.5 14.7-6.9 17.8-14.4s2.2-16.1-2.4-22.8L450.9 256l56.9-82.5c4.6-6.7 5.5-15.3 2.4-22.8s-9.8-12.9-17.8-14.4l-98.5-18.1L375.7 19.7zM269.6 110l65.6-45.2 14.4 78.3c1.8 9.8 9.5 17.5 19.3 19.3l78.3 14.4L402 242.4c-5.7 8.2-5.7 19 0 27.2l45.2 65.6-78.3 14.4c-9.8 1.8-17.5 9.5-19.3 19.3l-14.4 78.3L269.6 402c-8.2-5.7-19-5.7-27.2 0l-65.6 45.2-14.4-78.3c-1.8-9.8-9.5-17.5-19.3-19.3L64.8 335.2 110 269.6c5.7-8.2 5.7-19 0-27.2L64.8 176.8l78.3-14.4c9.8-1.8 17.5-9.5 19.3-19.3l14.4-78.3L242.4 110c8.2 5.7 19 5.7 27.2 0zM256 368a112 112 0 1 0 0-224 112 112 0 1 0 0 224zM192 256a64 64 0 1 1 128 0 64 64 0 1 1 -128 0z"></path></svg></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xs tracking-widest uppercase font-medium">Morning Glory</h3>
+                        <p class="text-[10px] text-sage-text/60 mt-1">Awaken Energy</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Grid -->
+     <section id="info-grid" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 text-center md:text-left">
+            
+            <div class="space-y-4">
+                <span class="text-4xl font-serif text-sage-text/20 italic">01</span>
+                <h4 class="font-serif text-xl text-sage-text">Philosophy</h4>
+                <p class="text-sm font-light leading-relaxed text-sage-text/80">
+                    Our practice is rooted in traditional Ashtanga, focusing on breath, movement, and gaze to build internal heat and purify the body.
+                </p>
+            </div>
+
+            <div class="space-y-4">
+                <span class="text-4xl font-serif text-sage-text/20 italic">02</span>
+                <h4 class="font-serif text-xl text-sage-text">Community</h4>
+                <p class="text-sm font-light leading-relaxed text-sage-text/80">
+                    A sanctuary for like-minded souls seeking peace. We foster a supportive environment for growth, healing, and connection.
+                </p>
+            </div>
+
+            <div class="space-y-4">
+                <span class="text-4xl font-serif text-sage-text/20 italic">03</span>
+                <h4 class="font-serif text-xl text-sage-text">Workshops</h4>
+                <p class="text-sm font-light leading-relaxed text-sage-text/80">
+                    Deepen your practice with our weekend intensives, focusing on alignment, anatomy, and the deeper philosophy of yoga.
+                </p>
+            </div>
+
+             <div class="space-y-4">
+                <span class="text-4xl font-serif text-sage-text/20 italic">04</span>
+                <h4 class="font-serif text-xl text-sage-text">Retreats</h4>
+                <p class="text-sm font-light leading-relaxed text-sage-text/80">
+                    Escape the ordinary. Join us in serene locations worldwide for immersive experiences that rejuvenate mind, body, and spirit.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Visual Profile -->
+     <section id="visual-profile" class="py-20 px-6 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+            
+            <!-- Left Column: Arched Image & Bio -->
+            <div class="lg:col-span-4 flex flex-col space-y-12">
+                <div class="h-[500px] w-full relative overflow-hidden arch-img group">
+                    <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?q=80&amp;w=2000&amp;auto=format&amp;fit=crop" alt="Meditation Outdoors" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-sage-text/10 mix-blend-multiply"></div>
+                </div>
+                
+                <div class="flex items-start space-x-4 pt-4 border-t border-sage-text/10">
+                    <div class="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
+                         <img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-1.jpg" alt="Instructor" class="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <h5 class="text-xs tracking-widest uppercase font-bold text-sage-text">Emily Burton</h5>
+                        <p class="text-[10px] uppercase tracking-wider text-sage-text/60 mb-3">Lead Instructor</p>
+                        <div class="flex space-x-3 text-sage-text/50">
+                            <a href="#" class="hover:text-sage-text transition-colors"><i data-fa-i2svg=""><svg class="svg-inline--fa fa-instagram" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></i></a>
+                            <a href="#" class="hover:text-sage-text transition-colors"><i data-fa-i2svg=""><svg class="svg-inline--fa fa-twitter" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></i></a>
+                            <a href="#" class="hover:text-sage-text transition-colors"><i data-fa-i2svg=""><svg class="svg-inline--fa fa-linkedin-in" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Middle Column: Abstract Texture & Quote -->
+            <div class="lg:col-span-3 flex flex-col justify-end h-full space-y-8 lg:pt-32">
+                 <div class="h-64 w-full overflow-hidden relative grayscale hover:grayscale-0 transition-all duration-500">
+                    <img src="https://images.unsplash.com/photo-1507643179173-617d65455131?q=80&amp;w=1000&amp;auto=format&amp;fit=crop" alt="Nature Texture" class="w-full h-full object-cover opacity-80">
+                </div>
+                <div class="p-6 bg-white border border-sage-text/5 shadow-sm">
+                    <p class="font-serif italic text-lg leading-relaxed text-sage-text mb-4">
+                        "Yoga is the journey of the self, through the self, to the self."
+                    </p>
+                    <p class="text-xs uppercase tracking-widest text-sage-text/40">— Bhagavad Gita</p>
+                </div>
+            </div>
+
+            <!-- Right Column: Large Square Image -->
+            <div class="lg:col-span-5">
+                <div class="aspect-square w-full relative overflow-hidden bg-white p-4 shadow-sm border border-sage-text/5">
+                    <div class="w-full h-full overflow-hidden relative">
+                         <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&amp;w=2000&amp;auto=format&amp;fit=crop" alt="Seated Meditation" class="w-full h-full object-cover filter brightness-105 contrast-90">
+                    </div>
+                     <!-- Minimal overlay text -->
+                    <div class="absolute bottom-8 left-8 bg-white/90 backdrop-blur px-6 py-3">
+                        <span class="text-xs tracking-[0.2em] uppercase text-sage-text">Inner Peace</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-sage-text text-cream-bg py-20 mt-20">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
+            <div class="col-span-1 md:col-span-1">
+                <div class="w-12 h-12 flex items-center justify-center border border-cream-bg/20 rounded-full mb-6">
+                    <span class="font-serif text-2xl italic">A</span>
+                </div>
+                <p class="text-xs font-light text-cream-bg/60 leading-relaxed">
+                    A sanctuary for modern yogis.<br>
+                    Est. 2024
+                </p>
+            </div>
+            
+            <div>
+                <h4 class="font-serif text-lg mb-6 text-cream-bg/90">Studio</h4>
+                <ul class="space-y-3 text-sm font-light text-cream-bg/60">
+                    <li><a href="#" class="hover:text-white transition-colors">Our Story</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Teachers</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Visit Us</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-serif text-lg mb-6 text-cream-bg/90">Practice</h4>
+                <ul class="space-y-3 text-sm font-light text-cream-bg/60">
+                    <li><a href="#" class="hover:text-white transition-colors">Schedule</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Private Sessions</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Workshops</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Online Classes</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-serif text-lg mb-6 text-cream-bg/90">Newsletter</h4>
+                <p class="text-xs font-light text-cream-bg/60 mb-4">Subscribe for updates and wellness tips.</p>
+                <div class="flex border-b border-cream-bg/20 pb-2">
+                    <input type="email" placeholder="Email Address" class="bg-transparent border-none outline-none text-sm w-full text-cream-bg placeholder-cream-bg/30">
+                    <button class="text-xs uppercase tracking-widest hover:text-white transition-colors">Join</button>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 mt-20 pt-8 border-t border-cream-bg/10 text-center md:text-left flex flex-col md:flex-row justify-between items-center text-[10px] text-cream-bg/40 uppercase tracking-widest">
+            <p>© 2024 Anyany Yoga Studio. All rights reserved.</p>
+            <div class="flex space-x-6 mt-4 md:mt-0">
+                <a href="#" class="hover:text-white transition-colors">Privacy</a>
+                <a href="#" class="hover:text-white transition-colors">Terms</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
